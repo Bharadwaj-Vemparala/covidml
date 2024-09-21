@@ -8,7 +8,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 st.title('COVID-19 Cured Cases Prediction using Random Forest')
 
 # Load dataset
-csv_url = 'C:/Users/Bharadwaj/Downloads/covid_19_india.csv'  # Update this path
+csv_url = 'https://raw.githubusercontent.com/Bharadwaj-Vemparala/covidml/main/covid_19_india.csv'  # Update this path
 data = pd.read_csv(csv_url)
 
 # Fixed features: 'Confirmed' and 'Deaths'
